@@ -223,7 +223,7 @@ h3 {
 
 @keyframes scale {
     0% {
-        height: 70em;
+        height: 90em;
         margin-top: 7em;
     }
     100% {
@@ -234,7 +234,7 @@ h3 {
 
 @-moz-keyframes scale { 
     0% {
-        height: 70em;
+        height: 90em;
         margin-top: 7em;
     }
     100% {
@@ -245,7 +245,7 @@ h3 {
 
 @-webkit-keyframes scale { 
     0% {
-        height: 70em;
+        height: 90em;
         margin-top: 7em;
     }
     100% {
@@ -256,7 +256,7 @@ h3 {
 
 @-o-keyframes scale { 
     0% {
-        height: 70em;
+        height: 90em;
         margin-top: 7em;
     }
     100% {
@@ -267,7 +267,7 @@ h3 {
 
 #mainImg {
     width: 100%;
-    height: 70em;
+    height: 90em;
     background: #fff;
     position: relative;
     margin-top: 7em;
@@ -279,7 +279,7 @@ h3 {
 }
 #mainImg img {
     width: 100%;
-    height: 70em;
+    height: 90em;
     border: 0;
 }
 
@@ -419,13 +419,13 @@ h3 {
 
 .sideBar nav {
     display: block;
-    width: 17em;
+    width: 100%;
 }
 
 .in-view {
     position: fixed;
     top: 10%;
-    left: 1%;
+    right: 1%;
     margin-left: 6em;
 }
 

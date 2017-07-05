@@ -412,6 +412,7 @@ h3 {
 
 .sideBar {
     width: 16em;
+    padding-top: 2em;
     margin: 0 auto;
     box-sizing: border-box;
     -webkit-box-shadow: 4px 0 4px -2px #ddd;

@@ -1,0 +1,22 @@
+//onload display Name
+name.onload = setTimeout(function(){ 
+	document.getElementById('name').style.display = "block"
+ }, 3000);
+
+//jQuery Animations
+$(document).ready(function(){
+	//hide and show
+    $(".taxi").click(function(){
+        $('.taxiAddress').toggle(1000);
+    });
+
+    //Fixing the sideBar on scrolling of page
+    var $fixOnScroll = $('.fixOnScroll');
+    $(window).scroll(function(){
+    	if($(this).scrollTop() > 350){
+           $fixOnScroll.addClass('in-view');
+    	}else{
+    		$fixOnScroll.removeClass('in-view');
+    	}
+    });
+});

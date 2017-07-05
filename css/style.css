@@ -149,7 +149,7 @@ h3 {
     line-height:1.2em;
     color: #b2b2b2;
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1.4em;
     font-family: "Futura Book",Helvetica,Arial,sans-serif;
 }
 .nav a:hover {
@@ -165,7 +165,7 @@ h3 {
 .nav ul li a{
     color: #b2b2b2;
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1.4em;
     font-family: 'Crimson Text', serif;
     font-weight: 600;
 }
@@ -444,7 +444,7 @@ h3 {
     line-height: 12px;
     text-decoration: none;
     color: #7c7c7c;
-    font-size: 12px;
+    font-size: 1.4em;
     font-weight: normal;
 }
 

@@ -40,6 +40,7 @@ p {
     line-height: 1.6;
     font-family: "Futura Book",Helvetica,Arial,sans-serif;
     font-size: 1.3em;
+    color: #666;
 }
 
 h1 {
@@ -437,7 +438,6 @@ h3 {
 }
 .sideBar nav ul li {
     margin-bottom: 15px;
-    text-transform: uppercase;
 }
 
 .sideBar nav ul li a{
@@ -451,6 +451,7 @@ h3 {
 .sideBar nav ul li a.active {
     color: #000;
     font-weight: 400;
+    text-transform: uppercase;
 }
 
 .mainBar {
@@ -1249,4 +1250,130 @@ footer {
     content: " ";
     display: table;
     clear: both;
+}
+
+
+/*--------------------Listing Page-----------*/
+
+#listingMainImg {
+    width: 100%;
+    height: 43em;
+    overflow: hidden;
+    position: relative;
+}
+
+#listingMainImg img {
+    width: 100%;
+    height: 43em;
+    overflow: hidden;
+}
+
+.listingOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.listingText {
+    width: 95.6em;
+    box-sizing: border-box;
+    margin-bottom: 4em;
+}
+
+.listingText p{
+    color: #666;
+}
+
+.listingControl {
+    width: 95.6em;
+    border: solid 1px #aa9671;
+    padding: 1.5em;
+    box-sizing: border-box;
+    margin-bottom: 4em;
+}
+
+.listingControl nav {
+    display: block;
+}
+
+.listingControl nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+.listingControl nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 1em;
+    font-size: 1.4em;
+    margin-right: 1em;
+    border-right: solid 1px #ddd;
+    cursor: pointer;
+    color: #ae9364;
+    text-transform: uppercase;
+}
+
+.listingControl nav ul li:active { 
+    color: #000;
+}
+
+.active {
+    color: #000;
+}
+
+.listing {
+    width: 95.6em;
+    box-sizing: border-box;
+}
+
+.listingWrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rooms {
+    width: 33.2%;
+    min-height: 30em;
+    overflow: hidden;
+    margin-bottom: 1em;
+    border-right: solid 1px #ddd;
+}
+
+.rooms img {
+    width: 100%;
+    height: 23.5em;
+}
+
+.roomPricing {
+    width: 100%;
+    height: 100%;
+    padding: 2em 2em 3em 0;
+    box-sizing: border-box;
+}
+
+.roomPricing h3 {
+   margin-bottom: 0.8em;
+}
+
+.roomPricing > a {
+    display: block;
+    margin-top: 2em;
+    text-transform: uppercase;
+    color: #ae9364;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+.roomPricing .book {
+    padding: 1em 0;
+    background: linear-gradient(to bottom,#ad9d83 0,#7f7159 100%);
+    text-align: center;
+    width: 50%;
+    margin: 4em auto;
+    color: #fff;
+    font-size: 1.4em;
 }

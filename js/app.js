@@ -12,11 +12,15 @@ $(document).ready(function(){
 
     //Fixing the sideBar on scrolling of page
     var $fixOnScroll = $('.fixOnScroll');
-    $(window).scroll(function(){
-    	if($(this).scrollTop() > 350){
+    var $window = $(window);
+    $window.scroll(function(){
+    	if($window.scrollTop() > 350){
            $fixOnScroll.addClass('in-view');
     	}else{
     		$fixOnScroll.removeClass('in-view');
     	}
     });
+
+    
+
 });

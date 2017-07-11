@@ -19,8 +19,15 @@ $(document).ready(function(){
     	}else{
     		$fixOnScroll.removeClass('in-view');
     	}
-    });
-
-    
+    });   
 
 });
+
+//book Now form
+var bookingWrapper = document.getElementById("bookingWrapper");
+function openBookNow() {
+   bookingWrapper.style.display = "block";
+};
+function closeBookNow() {
+    bookingWrapper.style.display = "none";
+};

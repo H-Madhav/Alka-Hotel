@@ -50,7 +50,7 @@
 	    	<nav class="nav-right">
 	    		<ul>
 	    			<!-- <li><a href="#">Hotels in Bulandshahr</a></li> -->
-	    			<li><a href="#" class="reservation">reservations</a></li>
+	    			<li><a href="javascript:void(0)" class="reservation" onclick="openBookNow()">reservations</a></li>
 	    		</ul>
 	    	</nav>
     	</div>
@@ -354,6 +354,48 @@
 
 	    </div>
 	</div>
+
+    <div id="bookingWrapper">
+   	    <div class="booking" id="booking">
+	   	    <div class="formHeading">
+		    	<h3>Book Your Stay</h3>
+		    	<span class="formClose" onclick="closeBookNow();">&times;</span>
+	   		</div>
+	   		<form novalidate>
+	   			<div>
+	   				<label for="name">Name*</label>
+	   				<input type="text" name="name" required>
+	   			</div>
+	   			<div class="numberContainer">
+	   				<div>
+	   					<label for="isd">ISD Code</label>
+	   				    <input type="text" name="isd" placeholder="+91">
+	   				</div>
+	   				<div>
+	   					<label for="number">Number*</label>
+	   				    <input type="text" name="number" required>
+	   				</div>
+	   			</div>
+	   			<div>
+	   				<label for="email">Email*</label>
+	   				<input type="email" name="email" required>
+	   			</div>
+	   			<div>
+	   				<label for="email">Room</label>
+	   				<select>
+	   					<option>Select Room</option>
+	   					<option>Winsome</option>
+	   					<option>Delux</option>
+	   					<div>xyx</div>
+	   				</select><br><br>
+	   			</div>
+	   			<div class="procced">
+	   				<button>procced</button>
+	   				<a href="javascript:void(0)" onclick="closeBookNow();">Close</a>
+	   			</div>
+	   		</form>
+   	    </div>
+   	</div>
 
 	<footer>
 	    <div class="footerHead">

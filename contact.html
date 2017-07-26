@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>The Alka</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600" rel="stylesheet">
+	<link rel="shortcut icon" href="">
+</head>
+<body>
+    <header id="header">
+        <div class="headerContainer clear">
+            <div class="navbarHeader">
+                <img src="img/logo.png">
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li>
+                        <a href="listing.html">Our Rooms</a>
+                        <ul>
+                            <li><a href="room.html">Super Delux</a></li>
+                            <li><a href="#">Delux</a></li>
+                            <li><a href="#">Classic</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">About Us</a>
+                        <ul>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Delhi</a></li>
+                    <li>
+                        <a href="#">English</a>
+                        <ul>
+                            <li><a href="#">日本語</a></li>
+                            <li><a href="#">русский</a></li>
+                            <li><a href="#">中文</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+            <nav class="nav-right">
+                <ul>
+                    <!-- <li><a href="#">Hotels in Bulandshahr</a></li> -->
+                    <li><a href="javascript:void(0)" class="reservation" onclick="openBookNow()">reservations</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div id="listingMainImg">
+        <img src="img/AlkaList.jpg" alt="Alka-front">
+        <div class="listingOverlay">
+        	<div id="name">
+    			<h1>The Alka Hotels</h1>
+    		    <h3>Contact-Us</h3>
+    		    <p>Exquisitely Indian, in the heart of the Country of Colors</p>
+    		</div>
+        </div>
+    </div>
+
+    <div id="main_Contact">
+    	<h2>THE ALKA HOTELS CONTACT INFORMATION</h2>
+    	<div class="contactWrapper">
+    		<div class="city">
+    			<h3>City A</h3>
+    			<p><b>Address: </b>Bulandshahr, Uttar Pradesh 203001, India</p>
+    			<p><b>Telephone: </b>+91 (0)8911111101</p>
+    			<p><b>E-mail: </b>CityA@gmail.com</p>
+    			<p></p>
+    		</div>
+    		<div class="city">
+    			<h3>City B</h3>
+    			<p><b>Address: </b>Gurugram, india 203001, India</p>
+    			<p><b>Telephone: </b>+91 (0)8911111101</p>
+    			<p><b>E-mail: </b>CityB@gmail.com</p>
+    			<p></p>
+    		</div>
+    		<div class="city">
+    			<h3>City C</h3>
+    			<p><b>Address: </b>Delhi, India 203001, India</p>
+    			<p><b>Telephone: </b>+91 (0)8911111101</p>
+    			<p><b>E-mail: </b>CityC@gmail.com</p>
+    			<p></p>
+    		</div>
+    	</div>
+
+    	<div class="contactUs">
+    		<h3>The Alka Hotel</h3>
+    		<h2>Send Us A Message</h2>
+    		<p>Mandatory fields are marked as "*", but by giving more information it will allow us to understand your needs.</p>
+    		<div class="contactUsForm">
+    			<form action="/" method="get" autocomplete="on">
+    				<div class="subContact">
+    					<div class="title">
+    						<label>Title*</label>
+    						<select required>
+    							<option>Mr</option>
+    							<option>Mrs</option>
+    							<option>Ms</option>
+    						</select>
+    					</div>
+    					<div>
+    						<label for="name">Name*</label>
+    						<input type="text" name="name" required>
+    					</div>
+    					<div>
+    						<label for="email">E-mail*</label>
+    						<input type="email" name="email" required>
+    					</div>
+    					<div>
+    						<label for="phone">Telephone<span>(country/Area Code + number)</span></label>
+    						<input type="text" name="phone">
+    					</div>
+    				</div>
+    				<div class="subContact">
+    					<div>
+    						<label>Hotel/Apartment*</label>
+    						<select required>
+    							<option>Alka motel</option>
+    							<option>Apartment A</option>
+    							<option>Apartment B</option>
+    						</select>
+    					</div>
+    					<div>
+    						<label>Message*</label>
+    						<textarea rows="10" cols="34" required></textarea>
+    					</div>
+    					<div>
+    						<button type="submit">Submit Request</button>
+    					</div>
+    				</div>
+    			</form>
+
+    			<div id="map">
+    				<iframe src="https://www.google.com/maps/d/embed?mid=1jCwMDOWLIvHDCKFz-gV7iu2CCOg&hl=en" width="550" height="390" frameBorder="0"></iframe>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+	<footer>
+	    <div class="footerHead">
+	    	<div class="footerHeadContent">
+	    		<div>
+	    			<h3>The Alka Hotel</h3>
+	    		    <p>Bulandshahr, Uttar Pradesh 203001, India | Telephone: +91 (0)8911111101</p>
+	    		</div>
+	    	</div>
+	    </div>
+		<div class="footerWrapper">
+			<div class="links">
+				<h3>The Alka Hotels</h3>
+				<ul>
+					<a href="#">Contact Us</a>
+					<a href="#">About Us</a>
+					<a href="#">Careers</a>
+				</ul>
+			</div>
+			<div class="links">
+				<h3>Media</h3>
+				<ul>
+					<a href="#">News Room</a>
+					<a href="#">Press Contact</a>
+					<a href="#">Download Vouchers</a>
+				</ul>
+			</div>
+			<div class="links">
+				<h3>Corporate</h3>
+				<ul>
+					<a href="#">Data Privacy</a>
+					<a href="#">Security policy</a>
+					<a href="#">Email : alkamotel123@gmail.com</a>
+				</ul>
+			</div>
+			<div class="NewsLetter">
+				<h3>News Letter SignUp</h3>
+				<div>
+					<input type="email" name="email" placeholder="Email">
+					<button type="submit">submit</button>
+					<h3>find Us On</h3>
+					<ul>
+						<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footerFoot">
+			<p>&copy; 2017 The Alka Hotel | Powerd By: <a href="#">nodal.direct</a> | All Rights Reserved.</p>
+            <ul>
+            	<li>Language:</li>
+            	<li><a href="#">English</a></li>
+            	<li><a href="#">日本語</a></li>
+            	<li><a href="#">русский</a></li>
+            	<li><a href="#">中文</a></li>
+            </ul>
+		</div>
+	</footer>
+	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src='js/app.js'></script>
+</body>
+</html>
